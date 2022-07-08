@@ -44,3 +44,9 @@
     max-width: 300px;
     width: 100px;
 }
+
+.login_button:disabled {
+    background-color: rgb(65, 66, 66);
+    color: rgb(171, 23, 38);
+    cursor: auto;
+}
