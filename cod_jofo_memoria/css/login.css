@@ -1,9 +1,16 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(../imagens/fundopg1.png);
+    
+}
+
 .login_form {
     align-items: center;
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-color: rgb(251, 251, 251);
+    /* background-color: rgb(251, 251, 251); */
     justify-content: center;
 }
 
@@ -20,7 +27,7 @@
 }
 
 .login_header h1{
-    color: #0b3769;
+    color: #ffffff;
 }
 
 .login_input{
@@ -31,22 +38,31 @@
     max-width: 300px;
     width: 100%;
     outline: none;
-    padding: 15px;
+    padding: 12px;
+    font-family: 'Heebo', cursive;
 }
 
 .login_button {
-    background-color: #ee665c;
+    background-color: #e1e1e1;
+    padding: 12px;
     border-radius: 8px;
-    padding: 15px;
-    color: #fff;
+    color: rgb(7, 7, 7);
     cursor: pointer;
     font-size: 1em;
     max-width: 300px;
     width: 100px;
+    font-family: 'Heebo', cursive;
+    border: 10px;
 }
 
 .login_button:disabled {
-    background-color: rgb(65, 66, 66);
-    color: rgb(171, 23, 38);
+    background-color: rgb(80, 82, 82);
+    color: rgb(190, 16, 34);
     cursor: auto;
+    font-family: 'Heebo', cursive;
+}
+
+.texto_entrada{
+    color: #ffffff;
+    font-family: 'Heebo', cursive;
 }
